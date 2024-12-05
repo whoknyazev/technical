@@ -15,10 +15,9 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiogram.exceptions import TelegramBadRequest
 
 # Настройка
-API_TOKEN = '8079401890:AAEViDARVCq3TpDi1RWAYB6KwfJsuKf_mAg'  # Замените на токен вашего бота
-ADMIN_CHAT_ID = -1002486131912  
-ADMIN_IDS = [605530472, 296187600]
-
+API_TOKEN = ''  # Замените на токен вашего бота
+ADMIN_CHAT_ID =  # ID чата где сидят админы с "-" (-912093018240)
+ADMIN_IDS = []   # ID админов, чтобы бот не лаганул
 EKAT_TZ = timezone(timedelta(hours=5))  # Екатеринбургское время (UTC+5)
 WORKING_HOURS = (time(8, 0), time(20, 0))  # С 8:00 до 20:00
 
